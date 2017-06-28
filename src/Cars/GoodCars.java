@@ -38,7 +38,7 @@ public class GoodCars {
 		
 		 
 			System.out.println("The red Acura is starting");
-			System.out.println(acura.getDriver().getName() + " is driving");
+			System.out.println(i + " is driving");
 			System.out.println("The blue Bentley is starting");
 			System.out.println("The orange Volve is starting");
 			

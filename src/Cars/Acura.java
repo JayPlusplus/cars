@@ -3,14 +3,14 @@ package Cars;
 import people.Driver;
 
 public class Acura extends Vehicle {
-	
-	private Driver driver;
+	public String i;
+	private String driver;
 	public Acura() {
-		 driver = new Driver();
+		 Driver i = new Driver();
 	}
 
 	
-	public Driver getDriver() {
+	public String getDriver() {
 		return driver;
 	}
 	public void setDriver(String i) {
