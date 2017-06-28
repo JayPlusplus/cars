@@ -1,7 +1,21 @@
 package Cars;
 
+import people.Driver;
+
 public class Acura extends Vehicle {
 	
+	private Driver driver;
+	public Acura() {
+		 driver = new Driver();
+	}
+
+	
+	public Driver getDriver() {
+		return driver;
+	}
+	public void setDriver(String i) {
+		this.driver = i;
+	}
 	public void move() {
 		System.out.println("this car moves smoothly");
 		
